@@ -12,6 +12,7 @@ for(var i = 0; i <= 7; i++) {
 } else if (userGuess === correctNum) {
   console.log("YOU WIN!");
   youWon = true;
+  break;
 }
 }
 
